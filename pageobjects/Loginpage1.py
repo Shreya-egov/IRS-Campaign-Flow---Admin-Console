@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-from testCases import loginpage
+
 
 class Loginpage:
     def __init__(self, driver):
